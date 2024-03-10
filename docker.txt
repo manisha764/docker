@@ -1,0 +1,16 @@
+docker
+
+
+Installing Docker Desktop https://www.docker.com/products/docker-desktop/
+ 
+Install kubectl for windows https://kubernetes.io/docs/tasks/tools/install-kubectlwindows
+
+Install minikube https://minikube.sigs.k8s.io/docs/start/
+
+
+
+kubectl version --client
+
+docker run -d -p 80:80 docker/getting-started
+
+ minikube start --vm-driver=docker
